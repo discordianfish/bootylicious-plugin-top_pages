@@ -1,0 +1,16 @@
+This is a simple plugin for adding static content (like ads or other
+stuff) from a page (or various pages) to each page or your blog.
+
+
+Just active it via the bootylicious.conf:
+
+    ...
+    "plugins" :
+    [
+        ...
+        "top_pages", { "pages" : [ "lastfm" ] }
+    ],
+    ...
+
+
+This example will include the page named "lastfm" right after the opening <body> tag.
